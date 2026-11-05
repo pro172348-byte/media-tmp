@@ -1,0 +1,27 @@
+name: fetch-media
+on:
+  push:
+    branches: [fetchreq]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: download
+        run: |
+          mkdir -p media
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            curl -sSLf -A "ShortsFactory/1.0 (media fetch)" -o "media/$name" "$url" || echo "FAIL $name" >> media/_errors.txt
+          done < urls.txt
+          ls -la media > media/_list.txt
+      - name: push result
+        run: |
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          git checkout --orphan fetched
+          git rm -rfq --cached . 
+          git add media
+          git commit -qm "fetched media"
+          git push -f origin fetched
