@@ -1,0 +1,21 @@
+name: gemini-tts
+on:
+  push:
+    branches: [ttsreq]
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tts.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: |
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          git checkout --orphan ttsout
+          git rm -rfq --cached .
+          git add audio
+          git commit -qm "tts ${{ github.sha }}"
+          git push -f origin ttsout
