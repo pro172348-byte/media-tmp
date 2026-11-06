@@ -1,0 +1,84 @@
+{
+ "queries": [
+  {
+   "id": "ru3_0",
+   "q": "LANSA Flight 508",
+   "n": 5
+  },
+  {
+   "id": "ru3_1",
+   "q": "Lockheed L-188 Electra",
+   "n": 5
+  },
+  {
+   "id": "ru3_2",
+   "q": "Amazon rainforest Peru aerial",
+   "n": 5
+  },
+  {
+   "id": "ru3_3",
+   "q": "Peruvian Amazon river jungle",
+   "n": 5
+  },
+  {
+   "id": "ru3_4",
+   "q": "thunderstorm lightning night sky",
+   "n": 5
+  },
+  {
+   "id": "ru3_5",
+   "q": "Juliane Koepcke",
+   "n": 5
+  },
+  {
+   "id": "ru3_6",
+   "q": "Panguana Peru",
+   "n": 5
+  },
+  {
+   "id": "ru3_7",
+   "q": "jungle hut Amazon",
+   "n": 5
+  },
+  {
+   "id": "ru4_0",
+   "q": "Hiroo Onoda",
+   "n": 5
+  },
+  {
+   "id": "ru4_1",
+   "q": "President Marcos and Hiroo Onoda",
+   "n": 5
+  },
+  {
+   "id": "ru4_2",
+   "q": "Lubang Island",
+   "n": 5
+  },
+  {
+   "id": "ru4_3",
+   "q": "Japanese soldiers Philippines 1944",
+   "n": 5
+  },
+  {
+   "id": "ru4_4",
+   "q": "Philippine jungle forest",
+   "n": 5
+  },
+  {
+   "id": "ru4_5",
+   "q": "surrender leaflet 1945 Japan",
+   "n": 5
+  },
+  {
+   "id": "ru4_6",
+   "q": "Arisaka rifle",
+   "n": 5
+  },
+  {
+   "id": "ru4_7",
+   "q": "Hiroo Onoda 1974",
+   "n": 5
+  }
+ ]
+}
