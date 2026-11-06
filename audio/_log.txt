@@ -1,0 +1,2 @@
+OK voice_ru3.wav model=gemini-3.1-flash-tts-preview sec=60.1
+OK voice_ru4.wav model=gemini-3.1-flash-tts-preview sec=75.5
