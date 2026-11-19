@@ -1,0 +1,104 @@
+{
+ "queries": [
+  {
+   "id": "ru27_0",
+   "q": "Vincenzo Peruggia",
+   "n": 5
+  },
+  {
+   "id": "ru27_1",
+   "q": "Peruggia mugshot",
+   "n": 5
+  },
+  {
+   "id": "ru27_2",
+   "q": "Mona Lisa",
+   "n": 5
+  },
+  {
+   "id": "ru27_3",
+   "q": "Mona Lisa stolen 1911 empty wall Louvre",
+   "n": 5
+  },
+  {
+   "id": "ru27_4",
+   "q": "Salon Carr\u00e9 Louvre",
+   "n": 5
+  },
+  {
+   "id": "ru27_5",
+   "q": "Louvre 1911",
+   "n": 5
+  },
+  {
+   "id": "ru27_6",
+   "q": "Mona Lisa Uffizi 1913",
+   "n": 5
+  },
+  {
+   "id": "ru27_7",
+   "q": "Mona Lisa returned Louvre 1914",
+   "n": 5
+  },
+  {
+   "id": "ru27_8",
+   "q": "Guillaume Apollinaire",
+   "n": 5
+  },
+  {
+   "id": "ru27_9",
+   "q": "Pablo Picasso 1908",
+   "n": 5
+  },
+  {
+   "id": "ru28_0",
+   "q": "Mathias Rust",
+   "n": 5
+  },
+  {
+   "id": "ru28_1",
+   "q": "Mathias Rust Cessna Red Square",
+   "n": 5
+  },
+  {
+   "id": "ru28_2",
+   "q": "Cessna 172 D-ECJB",
+   "n": 5
+  },
+  {
+   "id": "ru28_3",
+   "q": "Rust Cessna Deutsches Technikmuseum",
+   "n": 5
+  },
+  {
+   "id": "ru28_4",
+   "q": "Red Square 1987",
+   "n": 5
+  },
+  {
+   "id": "ru28_5",
+   "q": "Bolshoy Moskvoretsky Bridge",
+   "n": 5
+  },
+  {
+   "id": "ru28_6",
+   "q": "Saint Basil's Cathedral",
+   "n": 5
+  },
+  {
+   "id": "ru28_7",
+   "q": "Mikhail Gorbachev 1987",
+   "n": 5
+  },
+  {
+   "id": "ru28_8",
+   "q": "Sergei Sokolov marshal",
+   "n": 5
+  },
+  {
+   "id": "ru28_9",
+   "q": "MiG-23 Soviet air defence",
+   "n": 5
+  }
+ ]
+}
